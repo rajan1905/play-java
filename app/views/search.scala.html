@@ -1,0 +1,256 @@
+@(message: String)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>KHAWAJA HOMES</title>
+       <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+       <meta name="description" content="">
+	    <meta name="keywords" content="">
+	    <meta name="author" content="">
+	    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/css/touchTouch.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/css/kwicks-slider.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="assets/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascripts/superfish.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.kwicks-1.5.1.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.cookie.js"></script>    
+	<script type="text/javascript" src="assets/javascripts/touchTouch.jquery.js"></script>
+	<script type="text/javascript">if($(window).width()>1024){document.write("<"+"script src='assets/javascripts/jquery.preloader.js'></"+"script>");}	</script>
+
+	<script>		
+		 jQuery(window).load(function() {	
+		 $x = $(window).width();		
+	if($x > 1024)
+	{			
+	jQuery("#content .row").preloader();    }	
+		 
+     jQuery('.magnifier').touchTouch();			
+    jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});	
+  		  }); 
+				
+	</script>
+
+	<!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	<![endif]-->
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<!--<![endif]-->
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="assets/css/docs.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="assets/css/ie.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+  <![endif]-->
+    </head>
+    <body>
+    <style type="text/css"> 
+ 
+.cornerimage { position: absolute; top: 0; left: 0; } 
+</style>
+    <div class="spinner"></div> 
+<!--============================== header =================================-->
+<header bgcolor="#B8B4B5">
+      <div class="container clearfix">
+    <div class="row">
+          <div class="span12">
+        <div class="navbar navbar_">
+              <div class="container">
+          <a href="http://www.remax.com"><img alt="" src="assets/images/logo2.png" width="60px" height="60px"></a><a href="#"><img alt="" src="assets/images/khwaja.png" width="500px" height="220px" > </a>
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+                  <ul class="nav sf-menu">
+                <li ><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="">Search</a></li>
+              </ul>
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </header>    
+    
+    <div class="fLeft searchBlock">
+			<h3>Start Your Search Here</h3>
+			<div class="descText aRight">Where would you like to buy?</div>
+			<div class="mainForm"><input type="text" name="searchDetails" tabindex="1" placeholder="Type Location Here" onchange="hsUpdateTotal();"></div>
+			<div class="fLeft">
+				<div class="descText">Price Range</div>
+				<div class="dk_container dk_theme_black" id="dk_container_priceRangeFrom" tabindex="2" style="display: block;"><a class="dk_toggle" style="width: 91px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="100000">$100,000</a></li><li class=""><a data-dk-dropdown-value="125000">$125,000</a></li><li class=""><a data-dk-dropdown-value="150000">$150,000</a></li><li class=""><a data-dk-dropdown-value="175000">$175,000</a></li><li class=""><a data-dk-dropdown-value="200000">$200,000</a></li><li class=""><a data-dk-dropdown-value="225000">$225,000</a></li><li class=""><a data-dk-dropdown-value="250000">$250,000</a></li><li class=""><a data-dk-dropdown-value="275000">$275,000</a></li><li class=""><a data-dk-dropdown-value="300000">$300,000</a></li><li class=""><a data-dk-dropdown-value="325000">$325,000</a></li><li class=""><a data-dk-dropdown-value="350000">$350,000</a></li><li class=""><a data-dk-dropdown-value="375000">$375,000</a></li><li class=""><a data-dk-dropdown-value="400000">$400,000</a></li><li class=""><a data-dk-dropdown-value="425000">$425,000</a></li><li class=""><a data-dk-dropdown-value="450000">$450,000</a></li><li class=""><a data-dk-dropdown-value="475000">$475,000</a></li><li class=""><a data-dk-dropdown-value="500000">$500,000</a></li><li class=""><a data-dk-dropdown-value="525000">$525,000</a></li><li class=""><a data-dk-dropdown-value="550000">$550,000</a></li><li class=""><a data-dk-dropdown-value="575000">$575,000</a></li><li class=""><a data-dk-dropdown-value="600000">$600,000</a></li><li class=""><a data-dk-dropdown-value="625000">$625,000</a></li><li class=""><a data-dk-dropdown-value="650000">$650,000</a></li><li class=""><a data-dk-dropdown-value="675000">$675,000</a></li><li class=""><a data-dk-dropdown-value="700000">$700,000</a></li><li class=""><a data-dk-dropdown-value="725000">$725,000</a></li><li class=""><a data-dk-dropdown-value="750000">$750,000</a></li><li class=""><a data-dk-dropdown-value="775000">$775,000</a></li><li class=""><a data-dk-dropdown-value="800000">$800,000</a></li><li class=""><a data-dk-dropdown-value="825000">$825,000</a></li><li class=""><a data-dk-dropdown-value="850000">$850,000</a></li><li class=""><a data-dk-dropdown-value="875000">$875,000</a></li><li class=""><a data-dk-dropdown-value="900000">$900,000</a></li><li class=""><a data-dk-dropdown-value="925000">$925,000</a></li><li class=""><a data-dk-dropdown-value="950000">$950,000</a></li><li class=""><a data-dk-dropdown-value="975000">$975,000</a></li><li class=""><a data-dk-dropdown-value="1000000">$1,000,000</a></li></ul></div></div><select name="priceRangeFrom" class="custom_theme" tabindex="2" onchange="hsUpdateTotal();" style="display: none;">					
+					<option value="any" selected="selected">Any</option>
+					<option value="100000">$100,000</option>
+					<option value="125000">$125,000</option>
+					<option value="150000">$150,000</option>
+					<option value="175000">$175,000</option>
+					<option value="200000">$200,000</option>
+					<option value="225000">$225,000</option>
+					<option value="250000">$250,000</option>
+					<option value="275000">$275,000</option>
+					<option value="300000">$300,000</option>
+					<option value="325000">$325,000</option>
+					<option value="350000">$350,000</option>
+					<option value="375000">$375,000</option>
+					<option value="400000">$400,000</option>
+					<option value="425000">$425,000</option>
+					<option value="450000">$450,000</option>
+					<option value="475000">$475,000</option>
+					<option value="500000">$500,000</option>
+					<option value="525000">$525,000</option>
+					<option value="550000">$550,000</option>
+					<option value="575000">$575,000</option>
+					<option value="600000">$600,000</option>
+					<option value="625000">$625,000</option>
+					<option value="650000">$650,000</option>
+					<option value="675000">$675,000</option>
+					<option value="700000">$700,000</option>
+					<option value="725000">$725,000</option>
+					<option value="750000">$750,000</option>
+					<option value="775000">$775,000</option>
+					<option value="800000">$800,000</option>
+					<option value="825000">$825,000</option>
+					<option value="850000">$850,000</option>
+					<option value="875000">$875,000</option>
+					<option value="900000">$900,000</option>
+					<option value="925000">$925,000</option>
+					<option value="950000">$950,000</option>
+					<option value="975000">$975,000</option>
+				<option value="1000000">$1,000,000</option>
+				</select>
+			</div>
+			<div class="fLeft padControl1">TO</div>
+			<div class="fLeft padControl2">
+				<div class="dk_container dk_theme_black" id="dk_container_priceRangeTo" tabindex="3" style="display: block;"><a class="dk_toggle" style="width: 91px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="100000">$100,000</a></li><li class=""><a data-dk-dropdown-value="125000">$125,000</a></li><li class=""><a data-dk-dropdown-value="150000">$150,000</a></li><li class=""><a data-dk-dropdown-value="175000">$175,000</a></li><li class=""><a data-dk-dropdown-value="200000">$200,000</a></li><li class=""><a data-dk-dropdown-value="225000">$225,000</a></li><li class=""><a data-dk-dropdown-value="250000">$250,000</a></li><li class=""><a data-dk-dropdown-value="275000">$275,000</a></li><li class=""><a data-dk-dropdown-value="300000">$300,000</a></li><li class=""><a data-dk-dropdown-value="325000">$325,000</a></li><li class=""><a data-dk-dropdown-value="350000">$350,000</a></li><li class=""><a data-dk-dropdown-value="375000">$375,000</a></li><li class=""><a data-dk-dropdown-value="400000">$400,000</a></li><li class=""><a data-dk-dropdown-value="425000">$425,000</a></li><li class=""><a data-dk-dropdown-value="450000">$450,000</a></li><li class=""><a data-dk-dropdown-value="475000">$475,000</a></li><li class=""><a data-dk-dropdown-value="500000">$500,000</a></li><li class=""><a data-dk-dropdown-value="525000">$525,000</a></li><li class=""><a data-dk-dropdown-value="550000">$550,000</a></li><li class=""><a data-dk-dropdown-value="575000">$575,000</a></li><li class=""><a data-dk-dropdown-value="600000">$600,000</a></li><li class=""><a data-dk-dropdown-value="625000">$625,000</a></li><li class=""><a data-dk-dropdown-value="650000">$650,000</a></li><li class=""><a data-dk-dropdown-value="675000">$675,000</a></li><li class=""><a data-dk-dropdown-value="700000">$700,000</a></li><li class=""><a data-dk-dropdown-value="725000">$725,000</a></li><li class=""><a data-dk-dropdown-value="750000">$750,000</a></li><li class=""><a data-dk-dropdown-value="775000">$775,000</a></li><li class=""><a data-dk-dropdown-value="800000">$800,000</a></li><li class=""><a data-dk-dropdown-value="825000">$825,000</a></li><li class=""><a data-dk-dropdown-value="850000">$850,000</a></li><li class=""><a data-dk-dropdown-value="875000">$875,000</a></li><li class=""><a data-dk-dropdown-value="900000">$900,000</a></li><li class=""><a data-dk-dropdown-value="925000">$925,000</a></li><li class=""><a data-dk-dropdown-value="950000">$950,000</a></li><li class=""><a data-dk-dropdown-value="975000">$975,000</a></li><li class=""><a data-dk-dropdown-value="1000000">$1,000,000</a></li></ul></div></div><select name="priceRangeTo" class="custom_theme" tabindex="3" onchange="hsUpdateTotal();" style="display: none;">
+					
+<option value="any" selected="selected">Any</option>
+<option value="100000">$100,000</option>
+<option value="125000">$125,000</option>
+<option value="150000">$150,000</option>
+<option value="175000">$175,000</option>
+<option value="200000">$200,000</option>
+<option value="225000">$225,000</option>
+<option value="250000">$250,000</option>
+<option value="275000">$275,000</option>
+<option value="300000">$300,000</option>
+<option value="325000">$325,000</option>
+<option value="350000">$350,000</option>
+<option value="375000">$375,000</option>
+<option value="400000">$400,000</option>
+<option value="425000">$425,000</option>
+<option value="450000">$450,000</option>
+<option value="475000">$475,000</option>
+<option value="500000">$500,000</option>
+<option value="525000">$525,000</option>
+<option value="550000">$550,000</option>
+<option value="575000">$575,000</option>
+<option value="600000">$600,000</option>
+<option value="625000">$625,000</option>
+<option value="650000">$650,000</option>
+<option value="675000">$675,000</option>
+<option value="700000">$700,000</option>
+<option value="725000">$725,000</option>
+<option value="750000">$750,000</option>
+<option value="775000">$775,000</option>
+<option value="800000">$800,000</option>
+<option value="825000">$825,000</option>
+<option value="850000">$850,000</option>
+<option value="875000">$875,000</option>
+<option value="900000">$900,000</option>
+<option value="925000">$925,000</option>
+<option value="950000">$950,000</option>
+<option value="975000">$975,000</option>
+<option value="1000000">$1,000,000</option>
+				</select>
+			</div>
+			<div class="fLeft">
+				<div class="descText">Property Type</div>
+				<div class="dk_container dk_theme_black" id="dk_container_Type2" tabindex="4" style="display: block;"><a class="dk_toggle" style="width: 154px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="Detached">Detached Home</a></li><li class=""><a data-dk-dropdown-value="Semi-Detached">Semi-Detached Home</a></li><li class=""><a data-dk-dropdown-value="Att/Row/Twnhouse">Att/Row/Twnhouse</a></li><li class=""><a data-dk-dropdown-value="Condo Townhouse">Condo Townhouse</a></li><li class=""><a data-dk-dropdown-value="Condo Apt">Condo Apartment</a></li></ul></div></div><select name="Type2" onchange="hsUpdateTotal();" class="custom_theme" tabindex="4" style="display: none;">
+     			
+<option value="any" selected="selected">Any</option>
+     			
+<option value="Detached">Detached Home</option>
+     			
+<option value="Semi-Detached">Semi-Detached Home</option>
+     			
+<option value="Att/Row/Twnhouse">Att/Row/Twnhouse</option>
+     			
+<option value="Condo Townhouse">Condo Townhouse</option>
+     			
+<option value="Condo Apt">Condo Apartment</option>
+				</select>								
+			</div>
+			<div class="fClear"></div>
+			<div class="fLeft padControl3">
+				<div class="descText">Bedrooms</div>
+				<div class="dk_container dk_theme_black" id="dk_container_bedrooms" tabindex="5" style="display: block;"><a class="dk_toggle" style="width: 50px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="1">1+</a></li><li class=""><a data-dk-dropdown-value="2">2+</a></li><li class=""><a data-dk-dropdown-value="3">3+</a></li><li class=""><a data-dk-dropdown-value="4">4+</a></li><li class=""><a data-dk-dropdown-value="5">5+</a></li><li class=""><a data-dk-dropdown-value="6">6+</a></li><li class=""><a data-dk-dropdown-value="7">7+</a></li><li class=""><a data-dk-dropdown-value="8">8+</a></li><li class=""><a data-dk-dropdown-value="9">9+</a></li><li class=""><a data-dk-dropdown-value="10">10+</a></li></ul></div></div><select name="bedrooms" onchange="hsUpdateTotal();" class="custom_theme" tabindex="5" style="display: none;">
+					
+<option value="any" selected="selected">Any</option>
+<option value="1">1+</option>
+<option value="2">2+</option>
+<option value="3">3+</option>
+<option value="4">4+</option>
+<option value="5">5+</option>
+<option value="6">6+</option>
+<option value="7">7+</option>
+<option value="8">8+</option>
+<option value="9">9+</option>
+<option value="10">10+</option>
+				</select>
+			</div>
+			<div class="fLeft padControl3">
+				<div class="descText">Bathrooms</div>
+				<div class="dk_container dk_theme_black" id="dk_container_bathrooms" tabindex="6" style="display: block;"><a class="dk_toggle" style="width: 50px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="1">1+</a></li><li class=""><a data-dk-dropdown-value="2">2+</a></li><li class=""><a data-dk-dropdown-value="3">3+</a></li><li class=""><a data-dk-dropdown-value="4">4+</a></li><li class=""><a data-dk-dropdown-value="5">5+</a></li><li class=""><a data-dk-dropdown-value="6">6+</a></li><li class=""><a data-dk-dropdown-value="7">7+</a></li><li class=""><a data-dk-dropdown-value="8">8+</a></li><li class=""><a data-dk-dropdown-value="9">9+</a></li><li class=""><a data-dk-dropdown-value="10">10+</a></li></ul></div></div><select name="bathrooms" onchange="hsUpdateTotal();" class="custom_theme" tabindex="6" style="display: none;">
+										
+<option value="any" selected="selected">Any</option>
+<option value="1">1+</option>
+<option value="2">2+</option>
+<option value="3">3+</option>
+<option value="4">4+</option>
+<option value="5">5+</option>
+<option value="6">6+</option>
+<option value="7">7+</option>
+<option value="8">8+</option>
+<option value="9">9+</option>
+<option value="10">10+</option>
+									</select>
+			</div>
+			<div class="fLeft padControl3">
+				<div class="descText">Garages</div>
+				<div class="dk_container dk_theme_black" id="dk_container_garages" tabindex="7" style="display: block;"><a class="dk_toggle" style="width: 50px;"><span class="dk_label">Any</span></a><div class="dk_options"><ul class="dk_options_inner"><li class="dk_option_current"><a data-dk-dropdown-value="any">Any</a></li><li class=""><a data-dk-dropdown-value="1">1+</a></li><li class=""><a data-dk-dropdown-value="2">2+</a></li><li class=""><a data-dk-dropdown-value="3">3+</a></li><li class=""><a data-dk-dropdown-value="4">4+</a></li><li class=""><a data-dk-dropdown-value="5">5+</a></li></ul></div></div><select name="garages" onchange="hsUpdateTotal();" class="custom_theme" tabindex="7" style="display: none;">
+			              			
+<option value="any" selected="selected">Any</option>
+<option value="1">1+</option>
+<option value="2">2+</option>
+<option value="3">3+</option>
+<option value="4">4+</option>
+<option value="5">5+</option>
+									</select>
+			</div>
+			<div class="fClear"></div>
+		</div>
+    <footer>
+        <div class="container clearfix">
+            <ul class="list-social pull-right">
+                <li><a class="icon-1" href="#"></a></li>
+                <li><a class="icon-2" href="#"></a></li>
+                <li><a class="icon-3" href="#"></a></li>
+                <li><a class="icon-4" href="#"></a></li>
+            </ul>
+            <div class="privacy pull-left">KHAWAJA HOMES REAL ESTATE</div>
+            
+        </div>
+        
+        
+        
+    </footer>
+      
+    </body>
+    </html>

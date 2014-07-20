@@ -17,5 +17,8 @@ public class Application extends Controller {
       public static Result contact() {
         return ok(contact.render("KHAWAJA HOMES REAL ESTATE"));
      }
+      public static Result search() {
+        return ok(search.render("KHAWAJA HOMES REAL ESTATE"));
+     }
      
 }
